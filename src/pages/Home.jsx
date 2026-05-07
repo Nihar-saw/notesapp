@@ -52,7 +52,7 @@ const Home = () => {
       <Navbar />
 
       <div className="max-w-5xl mx-auto px-4 py-8">
-        <NoteForm addNote={addNote} />
+        <Noteform addNote={addNote} />
 
         {loading ? (
           <Loader />
@@ -63,7 +63,7 @@ const Home = () => {
         ) : (
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {notes.map((note) => (
-              <NoteCard
+              <Notecard
                 key={note._id}
                 note={note}
                 deleteNote={removeNote}
