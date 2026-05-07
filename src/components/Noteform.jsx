@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const NoteForm = ({ addNote }) => {
+const Noteform = ({ addNote }) => {
   const [title, setTitle] = useState('')
   const [content, setContent] = useState('')
 
@@ -53,4 +53,4 @@ const NoteForm = ({ addNote }) => {
   )
 }
 
-export default NoteForm
+export default Noteform

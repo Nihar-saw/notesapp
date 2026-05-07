@@ -1,7 +1,7 @@
 import React from 'react'
 import { MdDelete } from 'react-icons/md'
 
-const NoteCard = ({ note, deleteNote }) => {
+const Notecard = ({ note, deleteNote }) => {
   return (
     <div className='bg-slate-800 p-5 rounded-xl shadow-lg border border-slate-700'>
       <h2 className='text-xl font-semibold text-cyan-300 mb-2'>
@@ -23,4 +23,4 @@ const NoteCard = ({ note, deleteNote }) => {
   )
 }
 
-export default NoteCard
+export default Notecard

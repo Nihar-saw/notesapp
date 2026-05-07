@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
-import NoteForm from "../components/NoteForm";
-import NoteCard from "../components/NoteCard";
+import Noteform from "../components/Noteform"
+import Notecard from "../components/Notecard"
 import Loader from "../components/Loader";
 
 import {
