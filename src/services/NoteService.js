@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:8000/api/notes";
+const API = "https://notesapp-backend-ten.vercel.app/api/notes";
 
 export const getNotes = async () => {
   const response = await axios.get(API);
