@@ -8,7 +8,7 @@ import {
   getNotes,
   createNote,
   deleteNote
-} from "../services/noteService";
+} from "../services/NoteService.js";
 
 const Home = () => {
   const [notes, setNotes] = useState([]);
